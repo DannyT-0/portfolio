@@ -1,0 +1,68 @@
+body {
+    background-color: #1a1919; 
+    color: #ffffff;
+}
+
+.hero.is-primary {
+    background: linear-gradient(to right, #4a00e0, #8e2de2);
+}
+
+.hero-body {
+    padding: 5rem 1.5rem;
+}
+
+.section {
+    padding: 1rem 1.5rem; /* Reduced from the default 3rem 1.5rem */
+}
+
+.card {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(0);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 10px 30px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.card-content {
+    flex-grow: 1;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+}
+
+.icon-text .icon {
+    margin-right: 0.5rem;
+}
+
+.image.is-16by9 {
+    padding-top: 56.25%;
+    position: relative;
+    overflow: hidden;
+}
+
+.image.is-16by9 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title, .subtitle {
+    color: #ffffff;
+}
+
+.card-footer-item {
+    color: #3273dc;
+}
