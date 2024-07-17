@@ -12,6 +12,7 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 		/>
+		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
 		<main>
@@ -25,6 +26,17 @@
 							Passionate about creating efficient and user-friendly web
 							applications. Experienced in both front-end and back-end
 							development.
+						</p>
+						<p class="content is-medium mt-4">
+							<a
+								class="button is-link is-outlined is-large"
+								href="mailto:dannytokarev@gmail.com"
+							>
+								<span class="icon">
+									<i class="fas fa-envelope"></i>
+								</span>
+								<span>Contact Me</span>
+							</a>
 						</p>
 					</div>
 				</div>
@@ -85,7 +97,6 @@
 										<span class="ml-2 is-size-5">MongoDB</span>
 									</span>
 								</div>
-								<!-- Add more technologies as needed -->
 							</div>
 						</div>
 					</div>
@@ -96,13 +107,20 @@
 			<section class="section">
 				<div class="container">
 					<h2 class="title is-2 mb-6">My Projects</h2>
-					<div id="projects-container" class="columns is-multiline">
+					<div id="projects-container">
 						<!-- Project cards will be dynamically inserted here -->
 					</div>
 				</div>
 			</section>
 		</main>
 
-		<script src="bundle.js"></script>
+		<!-- Footer Section -->
+		<footer class="footer">
+			<div class="content has-text-centered">
+				<p>&copy; Daniil Tokarev, 2024. All rights reserved.</p>
+			</div>
+		</footer>
+
+		<script type="module" src="bundle.js"></script>
 	</body>
 </html>
